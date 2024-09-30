@@ -94,7 +94,9 @@ int testPerceptron(double features[]) {
 
 1. **Performance Metrics**: Implement accuracy, precision, and recall to evaluate the performance of the perceptron model on the test data.
 2. **Visualize Decision Boundary**:
+   
    ![image](https://github.com/user-attachments/assets/c2b8ca21-a4b4-410f-83f7-ab65a3aef034)
+   
 
 4. **Dataset**: Load a simple dataset, such as the Iris dataset, filtering out **Iris-virginica**, to train and test the perceptron.
 
