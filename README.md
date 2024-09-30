@@ -148,6 +148,6 @@ By implementing a perceptron using these foundational structures, students bridg
 
 ## License
 
-This project is licensed under the GNU License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the GPL License. See the [LICENSE](LICENSE) file for more information.
 ```
 
