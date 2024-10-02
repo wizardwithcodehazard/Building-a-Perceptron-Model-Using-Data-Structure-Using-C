@@ -51,8 +51,8 @@ int main() {
     normalizeInput(test_input);
     double raw_prediction = predictRaw(test_input, weights);
     int prediction = predict(test_input, weights);
-    printf("Test prediction for (4.3, 2.3): Raw = %f, Class = %d (%s)\n", 
-           raw_prediction, prediction, prediction == 0 ? "Iris-setosa" : "Iris-versicolor");
+    //(printf("Test prediction for (4.3, 2.3): Raw = %f, Class = %d (%s)\n", 
+           //raw_prediction, prediction, prediction == 0 ? "Iris-setosa" : "Iris-versicolor");
 
     handleUserPrediction(weights, dataset, &dataset_size);
 
