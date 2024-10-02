@@ -1,7 +1,3 @@
-Here's the updated project description for your "Building a Perceptron Model Using Data Structures and Algorithms in C":
-
----
-
 # Building a Perceptron Model Using Data Structures and Algorithms in C
 
 ## Objective
@@ -153,6 +149,3 @@ By implementing a perceptron using these foundational structures, students bridg
 
 This project is licensed under the GPL License. See the [LICENSE](LICENSE) file for more information.
 
----
-
-Feel free to modify any sections as needed!
