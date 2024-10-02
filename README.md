@@ -1,19 +1,22 @@
+Here's the updated project description for your "Building a Perceptron Model Using Data Structures and Algorithms in C":
 
-# Building-a-Perceptron-Model-Using-Data-Structure-Using-C
+---
+
+# Building a Perceptron Model Using Data Structures and Algorithms in C
 
 ## Objective
 
-The goal of this project is to create a simple perceptron model using basic Data Structures and Algorithms (DSA) concepts. This project aims to help students understand neural networks by applying fundamental DSA techniques such as arrays, matrices, loops, and basic arithmetic operations.
+The goal of this project is to create a simple perceptron model using fundamental Data Structures and Algorithms (DSA) concepts. This project aims to help students understand neural networks by applying basic DSA techniques such as arrays, matrices, loops, and arithmetic operations.
 
 ## Problem Statement
 
-Develop a perceptron model that can classify data points into two categories using supervised learning. The model utilizes DSA concepts to handle input data, update weights, and make predictions based on input features.
+Develop a perceptron model capable of classifying data points into two categories through supervised learning. The model utilizes DSA concepts to handle input data, update weights, and predict outcomes based on input features.
 
 ## Approach
 
 1. **Data Representation**: Use arrays to represent input features and weights.
 2. **Weight Update Rule**: Implement the perceptron learning rule to adjust weights during training.
-3. **Prediction**: Apply a simple activation function to predict the output based on weighted sums of inputs.
+3. **Prediction**: Apply a simple activation function to predict the output based on the weighted sum of inputs.
 4. **Training**: Train the model iteratively to minimize classification errors.
 
 ## Data Structures Used
@@ -28,6 +31,7 @@ Develop a perceptron model that can classify data points into two categories usi
 
 ```c
 #define DATASET_SIZE 100  // Number of data points
+#define FEATURES 2        // Number of features for each data point
 
 double X[DATASET_SIZE][FEATURES];  // Input features
 int Y[DATASET_SIZE];                // Labels (0 for Iris-setosa, 1 for Iris-versicolor)
@@ -95,14 +99,13 @@ int testPerceptron(double features[]) {
 1. **Performance Metrics**: Implement accuracy, precision, and recall to evaluate the performance of the perceptron model on the test data.
 2. **Visualize Decision Boundary**:
    
-   ![image](https://github.com/user-attachments/assets/c2b8ca21-a4b4-410f-83f7-ab65a3aef034)
-   
+    ![image](https://github.com/user-attachments/assets/c2b8ca21-a4b4-410f-83f7-ab65a3aef034)
 
 4. **Dataset**: Load a simple dataset, such as the Iris dataset, filtering out **Iris-virginica**, to train and test the perceptron.
 
 ## Training Output Example
 
-During training, the output of the weights is printed after certain epochs, which helps in understanding the learning process:
+During training, the output of the weights is printed after certain epochs, providing insight into the learning process:
 
 ```
 Epoch: 0, Weights: [0.190000, -0.030000]
@@ -138,16 +141,18 @@ By implementing a perceptron using these foundational structures, students bridg
 
 3. Compile the C program:
    ```bash
-   gcc -o Building-a-Perceptron-Model-Using-Data-Structure-Using-C
+   gcc -o perceptron perceptron.c
    ```
 
 4. Run the executable:
    ```bash
-   ./Building-a-Perceptron-Model-Using-Data-Structure-Using-C
+   ./perceptron
    ```
 
 ## License
 
 This project is licensed under the GPL License. See the [LICENSE](LICENSE) file for more information.
-```
 
+---
+
+Feel free to modify any sections as needed!
